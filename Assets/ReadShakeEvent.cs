@@ -16,19 +16,6 @@ public class ReadShakeEvent : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		accelDir = Input.acceleration;
-		if (accelDir.y > threshold) {
-			text.text = "UP";
-	
-		} else {
-			text.text = "";
-		}
-		/*else if (accelDir.y < -threshold) {
-			text.text = "DOWN";
-		} else {
-			text.text = "Nope.";
-		}
-		*/
-		//Debug.Log (accelDir.y);
+		
 	}
 }

@@ -23,5 +23,6 @@ public class Shake : MonoBehaviour {
 		transform.position = Vector3.MoveTowards (transform.position,target,step);
 		transform.rotation *= Quaternion.Euler (Vector3.back*rotato);
 
+
 	}
 }
